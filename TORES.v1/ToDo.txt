@@ -1,0 +1,3 @@
+﻿- Default ekranında ayrıca giriş yapan personelin direktörlüğünün de yazılması
+- Menü konulması
+- Rezervasyon formu oluşturulması

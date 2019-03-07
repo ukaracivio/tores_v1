@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TORES.master.cs" Inherits="TORES.v1.TORES" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TORES v1</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Table ID="tablTORESMain" runat="server" Width="100%" Height="510px">
+
+                <asp:TableRow Height="20%" BackColor="PaleGreen">
+                    <asp:TableCell>
+                        <asp:Label ID="lbelAdSoyad" runat="server" Text="Label"></asp:Label>
+
+                    </asp:TableCell>
+                </asp:TableRow>
+
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:Table ID="tablOrta" runat="server" Width="100%">
+                            <asp:TableRow>
+                                <asp:TableCell BackColor="MediumPurple" Width="20%"> 
+                                &nbsp;Menü
+                                </asp:TableCell>
+
+                                <asp:TableCell BackColor="DarkRed">
+                                    &nbsp;İçerik
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                                </asp:TableCell>
+
+                                <asp:TableCell BackColor="PapayaWhip" Width="20%"> 
+                                &nbsp;Haberler
+                                </asp:TableCell>
+
+                            </asp:TableRow>
+                        </asp:Table>
+                    </asp:TableCell>
+                </asp:TableRow>
+
+                <asp:TableRow Height="20%" BackColor="Sienna">
+                    <asp:TableCell>
+                    &nbsp;Footer
+                    </asp:TableCell>
+                </asp:TableRow>
+
+
+            </asp:Table>
+
+
+        </div>
+    </form>
+</body>
+</html>
