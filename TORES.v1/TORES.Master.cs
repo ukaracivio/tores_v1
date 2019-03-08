@@ -13,12 +13,14 @@ namespace TORES.v1
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            string Ad, Soyad;
+            string Ad, Soyad, DirTnm;
 
             Ad = clsGlobalVPF.PersAd;
             Soyad = clsGlobalVPF.PersSoyad;
+            DirTnm = clsGlobalVPF.PersDir;
 
             lbelAdSoyad.Text = Ad + " " + Soyad;
+            lbelDirektorluk.Text = DirTnm;
 
         }
     }

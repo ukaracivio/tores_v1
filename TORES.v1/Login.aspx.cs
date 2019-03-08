@@ -38,7 +38,7 @@ namespace TORES.v1
             connLocal.Open();
 
             SQLText = "";
-            SQLText += "SELECT PersID,PersAd,PersSoyad FROM datPersonel WHERE ";
+            SQLText += "SELECT PersID,PersAd,PersSoyad,(SELECT DirTnm FROM datDirektorluk WHERE DirID=PersDirID) AS DirTnm FROM datPersonel WHERE ";
             SQLText += "PersUID='" +kulad + "' AND ";
             SQLText += "PersPass='" + kulsifre + "'";
 
@@ -58,6 +58,7 @@ namespace TORES.v1
                 clsGlobalVPF.PersID = Convert.ToInt32(dt.Rows[0][0].ToString());
                 clsGlobalVPF.PersAd = dt.Rows[0][1].ToString();
                 clsGlobalVPF.PersSoyad = dt.Rows[0][2].ToString();
+                clsGlobalVPF.PersDir= dt.Rows[0][3].ToString();
 
 
                 Server.Transfer("Default.aspx");

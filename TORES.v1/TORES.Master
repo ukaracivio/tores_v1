@@ -13,7 +13,8 @@
 
                 <asp:TableRow Height="20%" BackColor="PaleGreen">
                     <asp:TableCell>
-                        <asp:Label ID="lbelAdSoyad" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lbelAdSoyad" runat="server" Text="Label"></asp:Label><br />
+                        <asp:Label ID="lbelDirektorluk" runat="server" Text="Label"></asp:Label><br />
 
                     </asp:TableCell>
                 </asp:TableRow>
