@@ -1,0 +1,53 @@
+﻿-------------------------------------------------------------------------------
+Proximity - bug/issue reports & feature requests
+-------------------------------------------------------------------------------
+As detailed in our license:
+
+
+Support:
+
+
+uiCookies offers these templates and designs ‘as is’, with no implied meaning that they will function exactly as you wish or with all 3rd party components and modules. Further, we offer no support via email or otherwise for installation, customization, administration, etc. You acknowledge by your use of the templates that it is at your sole risk, and that you assume full responsibility for all costs associated with all necessary servicing or repairs of any equipment you use in connection with the templates.
+
+
+However we are committed to work on releasing bug fixes to make our templates as good and useful as you deserve. So if you find a bug or a specific issue that you feel should be fixed in an updated version please send us an email here:
+
+
+uicookiez@gmail.com
+
+
+with:
+Email subject
+* Issue/Bug Proximity v.X (x current version of template)
+
+
+Email body
+* your OS version
+* your browser software name and version
+* your issue/bug
+---------------------------------------------------------------------------------
+
+
+Feature requests
+
+
+If you think something is missing and we should add more features to our template, you can contact us with your request, we will take it into account. We cannot guarantee however that we will be able to implement it. 
+
+
+If you wish to send us your request feedback please send us an email here:
+
+
+uicookiez@gmail.com
+
+
+with:
+Email subject
+* Feature request Proximity v.X (x current version of template)
+
+
+Email body* your feature request
+* any link, attachments that could help illustrate your request
+---------------------------------------------
+Thanks,
+The uiCookies Team.
+---------------------------------------------

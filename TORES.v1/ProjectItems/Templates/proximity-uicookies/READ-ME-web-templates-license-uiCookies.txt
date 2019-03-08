@@ -1,0 +1,98 @@
+﻿-------------------------------------------------------
+uiCookies // Web Templates License
+-------------------------------------------------------
+
+
+uiCookies hereby grants you a revocable, non-transferable and non- exclusive license to use our web templates available through our website uiCookies.com in accordance with the following Terms of Service (the “Web Templates License”) issued by uiCookies.
+
+
+Unlimited Usage Granted:
+
+
+You have the right to use uiCookies web templates on as many sites as you want.
+
+
+License:
+
+
+uiCookies web templates are GPL compliant. All PHP portions of the templates, themes and styles are licensed under the appropriate GPL or MIT license of the platform (Bootstrap, Wordpress etc...). The non- compiled portions including source file, images, cascading style sheets and JavaScript are licensed under the The “uiCookies Proprietary Use License" in accordance with the rest of these Terms of Service.
+
+
+Modifications:
+
+
+You are authorized to make any necessary modification(s) to our web templates to fit your purposes. You may not however redistribute or release non-GPL portions of the templates as GPL or otherwise. You may remove our copyright from the footer of the web templates if needed. Porting non-GPL portions of our templates to other platforms and content management systems and redistributing as GPL or otherwise is also strictly prohibited. 
+
+
+Please contact us if you have any requirements that are not covered by these terms.
+
+
+Unauthorized use:
+
+
+You may not place any non-GPL portions of our templates, modified or unmodified, on any medium and offer them for redistribution or resale of any kind without prior written consent from uiCookies. 
+
+
+Please contact us if you require more clarification. All templates are always designed for the latest version of the platform they are designed for, but we can give no guarantee that the templates will run with previous versions of those platforms.
+
+
+Assignability:
+You may not sub-license, assign, or transfer this license or uiCookies subscription to anyone else without prior written consent from uiCookies.
+
+
+Ownership:
+
+
+Our resources are provided “as is” without warranty of any kind, either expressed or implied. In no event shall uiCookies be liable for any damages including, but not limited to, direct, indirect, special, incidental or consequential damages or other losses arising out of the use of or inability to use our products.
+
+
+Use of Content:
+
+
+You acknowledge that our resources contain or may contain material (collectively the “Content”) which is protected by copyright, trademark or other proprietary rights; therefore, you are only permitted to use the material as expressly authorized by uiCookies. You may not transfer or sell, reproduce, create derivative works from, distribute, or in any way exploit any of the Content, in whole or in part, except with an expressly permitted Agreement from the developer.
+
+
+Refund policy:
+
+
+Since uiCookies is offering free templates we do not issue refunds after the membership is made, which you are responsible for understanding upon registering at our site.
+
+
+Warranty:
+
+
+uiCookies expressly disclaims all warranties of any kind, whether express or implied, including, but not limited to the implied warranties of title, merchantability including, but not limited to merchantability of computer programs, and fitness for a particular purpose. uiCookies does not warrant or guarantee these templates in any manner. 
+
+
+We cannot guarantee they will function with all 3rd party templates as there is currently no certification process for such components. Browser compatibility should be tested against the demonstration templates on the demo server. 
+
+
+Please ensure that the browsers you use will work with the templates as we can not guarantee that uiCookies templates will work with all browser combinations. Some states or jurisdictions do not allow the exclusion of certain warranties. Nothing in this section should be construed as excluding or limiting any warranty beyond what is permissible under applicable law.
+
+
+Support:
+
+
+uiCookies offers these templates and designs ‘as is’, with no implied meaning that they will function exactly as you wish or with all 3rd party components and modules. Further, we offer no support via email or otherwise for installation, customization, administration, etc. 
+
+
+You acknowledge by your use of the templates that it is at your sole risk, and that you assume full responsibility for all costs associated with all necessary servicing or repairs of any equipment you use in connection with the templates.
+
+
+Complete terms of service:
+
+
+This specific Web Templates License completes our general terms of service that can be found on our website:
+https://uicookies.com/license
+---------------------------------------------
+Find more great resources @ uiCookies.com
+Sincerely,
+The uiCookies Team.
+---------------------------------------------
+http://www.uiCookies.com
+
+
+PS. Those terms might change as we update our license on our website, please be sure to check the latest license terms on our website to avoid any misuse of our resources. 
+
+
+Thank you.
