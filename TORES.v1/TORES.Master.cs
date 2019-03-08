@@ -13,14 +13,32 @@ namespace TORES.v1
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            string Ad, Soyad, DirTnm;
+            string Ad, Soyad, DirTnm,PersTip;
 
             Ad = clsGlobalVPF.PersAd;
             Soyad = clsGlobalVPF.PersSoyad;
             DirTnm = clsGlobalVPF.PersDir;
+            PersTip = clsGlobalVPF.PersTip;
 
             lbelAdSoyad.Text = Ad + " " + Soyad;
             lbelDirektorluk.Text = DirTnm;
+            lbelPersTip.Text = PersTip;
+
+            // Artıkın menü adımlarının görünmemesi sağlanacak...PersTip'e göre
+
+            switch(PersTip)
+            {
+                case "1": // Dir.Admin
+
+                    hlnkMenu5.Enabled = false;
+                    break;
+
+                case "2": // Kullanıcı
+                    hlnkMenu1.Enabled = false;
+                    hlnkMenu3.Enabled = false;
+                    hlnkMenu5.Enabled = false;
+                    break;
+            }
 
         }
     }

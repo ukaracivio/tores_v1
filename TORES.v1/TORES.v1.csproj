@@ -242,6 +242,9 @@
     <Content Include="ProjectItems\Templates\proximity-uicookies\HTML\js\jquery-2.1.4.min.js" />
     <Content Include="ProjectItems\Templates\proximity-uicookies\HTML\js\scripts.js" />
     <Content Include="ProjectItems\Templates\proximity-uicookies\READ-ME-web-templates-license-uiCookies.txt" />
+    <Content Include="RezIstek.aspx" />
+    <Content Include="RezOnay.aspx" />
+    <Content Include="RezOnOnay.aspx" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Styles\Styles.txt" />
     <Content Include="ToDo.txt" />
@@ -626,6 +629,27 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RezIstek.aspx.cs">
+      <DependentUpon>RezIstek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RezIstek.aspx.designer.cs">
+      <DependentUpon>RezIstek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RezOnay.aspx.cs">
+      <DependentUpon>RezOnay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RezOnay.aspx.designer.cs">
+      <DependentUpon>RezOnay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RezOnOnay.aspx.cs">
+      <DependentUpon>RezOnOnay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RezOnOnay.aspx.designer.cs">
+      <DependentUpon>RezOnOnay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TORES.Master.cs">
       <DependentUpon>TORES.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

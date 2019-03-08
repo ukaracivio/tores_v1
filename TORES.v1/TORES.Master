@@ -15,6 +15,7 @@
                     <asp:TableCell>
                         <asp:Label ID="lbelAdSoyad" runat="server" Text="Label"></asp:Label><br />
                         <asp:Label ID="lbelDirektorluk" runat="server" Text="Label"></asp:Label><br />
+                        <asp:Label ID="lbelPersTip" runat="server" Text="Label"></asp:Label><br />
 
                     </asp:TableCell>
                 </asp:TableRow>
@@ -24,7 +25,12 @@
                         <asp:Table ID="tablOrta" runat="server" Width="100%">
                             <asp:TableRow>
                                 <asp:TableCell BackColor="MediumPurple" Width="20%"> 
-                                &nbsp;Menü
+                                <asp:HyperLink ID="hlnkRezIstek" runat="server" NavigateUrl="~/RezIstek.aspx">Rezervasyon İstek</asp:HyperLink><br />
+                                <asp:HyperLink ID="hlnkRezOnOnay" runat="server" NavigateUrl="~/RezOnOnay.aspx">Rezervasyon Ön Onayı</asp:HyperLink><br />
+                                <asp:HyperLink ID="hlnkRezOnay" runat="server" NavigateUrl="~/RezOnay.aspx">Rezervasyon Onayı</asp:HyperLink><br />
+                                <asp:HyperLink ID="hlnkMenu4" runat="server" NavigateUrl="#">Menü 4</asp:HyperLink><br />
+                                <asp:HyperLink ID="hlnkMenu5" runat="server" NavigateUrl="#">Menü 5</asp:HyperLink><br />
+
                                 </asp:TableCell>
 
                                 <asp:TableCell BackColor="DarkRed">

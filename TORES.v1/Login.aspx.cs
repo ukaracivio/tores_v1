@@ -27,6 +27,8 @@ namespace TORES.v1
 
             kulad = tboxKulAd.Text.Trim();
             kulsifre = tboxKulSifre.Text.Trim();
+            //kulad = "ukaracivi";
+            //kulsifre = "12345";
 
 
             SqlConnection connLocal = new SqlConnection();
@@ -38,7 +40,7 @@ namespace TORES.v1
             connLocal.Open();
 
             SQLText = "";
-            SQLText += "SELECT PersID,PersAd,PersSoyad,(SELECT DirTnm FROM datDirektorluk WHERE DirID=PersDirID) AS DirTnm FROM datPersonel WHERE ";
+            SQLText += "SELECT PersID,PersAd,PersSoyad,(SELECT DirTnm FROM datDirektorluk WHERE DirID=PersDirID) AS DirTnm,PersTip FROM datPersonel WHERE ";
             SQLText += "PersUID='" +kulad + "' AND ";
             SQLText += "PersPass='" + kulsifre + "'";
 
@@ -59,6 +61,7 @@ namespace TORES.v1
                 clsGlobalVPF.PersAd = dt.Rows[0][1].ToString();
                 clsGlobalVPF.PersSoyad = dt.Rows[0][2].ToString();
                 clsGlobalVPF.PersDir= dt.Rows[0][3].ToString();
+                clsGlobalVPF.PersTip = dt.Rows[0][4].ToString();
 
 
                 Server.Transfer("Default.aspx");

@@ -72,10 +72,12 @@ a:focus {
  *-------------------------------------------------------------*/
 .countdown-wrapper {
     margin: 20px 0 50px;
+    
 }
 
 #back-countdiown{
     padding: 0;
+    text-align:center;
 }
 
 #back-countdiown li {

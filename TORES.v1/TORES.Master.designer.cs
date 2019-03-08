@@ -49,6 +49,15 @@ namespace TORES.v1 {
         protected global::System.Web.UI.WebControls.Label lbelDirektorluk;
         
         /// <summary>
+        /// lbelPersTip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbelPersTip;
+        
+        /// <summary>
         /// tablOrta control.
         /// </summary>
         /// <remarks>
@@ -56,6 +65,51 @@ namespace TORES.v1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Table tablOrta;
+        
+        /// <summary>
+        /// hlnkRezIstek control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlnkRezIstek;
+        
+        /// <summary>
+        /// hlnkRezOnOnay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlnkRezOnOnay;
+        
+        /// <summary>
+        /// hlnkRezOnay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlnkRezOnay;
+        
+        /// <summary>
+        /// hlnkMenu4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlnkMenu4;
+        
+        /// <summary>
+        /// hlnkMenu5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlnkMenu5;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

@@ -8,7 +8,7 @@ jQuery(function ($) {
     (function () {
 
         $("#back-countdiown").countdown({
-            date: "03 may 2019 12:00:00",
+            date: "30 april 2019 12:00:00",
             format: "on"
         });
     
