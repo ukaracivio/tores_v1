@@ -1,7 +1,7 @@
 ﻿+ Default ekranında ayrıca giriş yapan personelin direktörlüğünün de yazılması
 + Default ekranında tarih yazılması
-- Menü konulması(08.03)
-- Menünün kullanıcı tipine göre değişiklik göstermesi (08.03)
++ Menü konulması(08.03)
++ Menünün kullanıcı tipine göre değişiklik göstermesi (08.03)
 
 - Rezervasyon formu oluşturulması (08.03)
 - Basit bir rezervasyon yapılması (08.03)
