@@ -16,7 +16,7 @@ namespace TORES.v1
         static int _persID;
         static string _persAd;
         static string _persSoyad;
-        static string _persDir;
+        static string _persDirTnm;
         static string _persTip;
 
         public static string ConnStr
@@ -43,10 +43,10 @@ namespace TORES.v1
             set { _persSoyad = value; }
         }
 
-        public static string PersDir
+        public static string PersDirTnm
         {
-            get { return _persDir; }
-            set { _persDir = value; }
+            get { return _persDirTnm; }
+            set { _persDirTnm = value; }
         }
 
         public static string PersTip

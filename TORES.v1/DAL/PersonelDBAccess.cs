@@ -150,11 +150,18 @@ namespace TORES.v1.DAL
 
                     personel = new Personel();
 
+
                     personel.PersID = Convert.ToInt32(row["PersID"]);
                     personel.PersAd = row["PersAd"].ToString();
                     personel.PersSoyad = row["PersSoyad"].ToString();
                     personel.PersDirTnm = row["DirTnm"].ToString();
                     personel.PersTip = row["PersTip"].ToString();
+
+                    clsGlobalVPF.PersID = Convert.ToInt32(row["PersID"]);
+                    clsGlobalVPF.PersAd = row["PersAd"].ToString();
+                    clsGlobalVPF.PersSoyad = row["PersSoyad"].ToString();
+                    clsGlobalVPF.PersDirTnm = row["DirTnm"].ToString();
+                    clsGlobalVPF.PersTip = row["PersTip"].ToString();
 
                     return true;
                 }

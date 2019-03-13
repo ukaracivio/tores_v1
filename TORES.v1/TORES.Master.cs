@@ -17,7 +17,7 @@ namespace TORES.v1
 
             Ad = clsGlobalVPF.PersAd;
             Soyad = clsGlobalVPF.PersSoyad;
-            DirTnm = clsGlobalVPF.PersDir;
+            DirTnm = clsGlobalVPF.PersDirTnm;
             PersTip = clsGlobalVPF.PersTip;
 
             lbelAdSoyad.Text = Ad + " " + Soyad;

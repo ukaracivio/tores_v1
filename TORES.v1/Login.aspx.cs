@@ -37,6 +37,7 @@ namespace TORES.v1
 
             if (hndPersonel.PersonelLoginControl(kulad,kulsifre) == true)
             {
+
                 Response.Redirect("Default.aspx");
             }
             else
