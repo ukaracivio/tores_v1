@@ -6,3 +6,4 @@
 - Rezervasyon formu oluşturulması (08.03)
 - Basit bir rezervasyon yapılması (08.03)
 
+- Siteye web.sitemap eklenmesi (aynı zamanda menü gibi kullanılacak)

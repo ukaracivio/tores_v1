@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TORES.v1.DAL.Direktorluk">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\Direktorluk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.DirektorlukDBAccess">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAEAAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAE=</HashCode>
+      <FileName>DAL\DirektorlukDBAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.Oda">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAQAAgCAIAAAAEAAEABAQAAAAAACAEAAABAAAAA=</HashCode>
+      <FileName>DAL\Oda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.OdaDBAccess">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>DAL\OdaDBAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.Personel">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIIQEACAAEEEAAIAEAAAAAAAAAAiAAAAAKAA=</HashCode>
+      <FileName>DAL\Personel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.PersonelDBAccess">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBAAAAAAAAAAAEEAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DAL\PersonelDBAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.Reservation">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACBIBAAAAAAEAAIAAAQEgAkQQAAAAQgIABAgAAAAQA=</HashCode>
+      <FileName>DAL\Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.ReservationDBAccess">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAUAAAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\ReservationDBAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TORES.v1.DAL.SQLDBHelper">
+    <Position X="14.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DAL\SQLDBHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

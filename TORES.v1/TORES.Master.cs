@@ -34,8 +34,8 @@ namespace TORES.v1
                     break;
 
                 case "2": // Kullanıcı
-                    hlnkMenu1.Enabled = false;
-                    hlnkMenu3.Enabled = false;
+                    hlnkRezOnay.Enabled = false;
+                    hlnkRezOnOnay.Enabled = false;
                     hlnkMenu5.Enabled = false;
                     break;
             }

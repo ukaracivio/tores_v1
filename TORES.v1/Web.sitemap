@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Ana Sayfa" description="Ana Sayfa">
+    <siteMapNode url="RezIstek.aspx" title="Rezervasyon İsteği"  description="Yeni bir rezervasyon isteği" />
+    <siteMapNode url="searchappointments.aspx" title="Search Appointments"  description="Searches appointments by text or title" />
+    <siteMapNode url="listappointmentsbydate.aspx" title="Appointments by Date"  description="Lists appointments by date" />
+    <siteMapNode url="allappointments.aspx" title="All Appointments"  description="Lists all appointments" />
+    <siteMapNode url="" title="User"  description="User Menu">
+      <siteMapNode url="changepassword.aspx" title="Change Password"  description="Allows user to change passwod" />
+      <siteMapNode url="listusers.aspx" title="List Users"  description="Provides list of users" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

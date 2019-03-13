@@ -2,11 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <asp:Calendar ID="clndTopBas" runat="server">
 
-    </asp:Calendar>
-    &nbsp;
-    <asp:Label ID="lbelTopBas" runat="server" Text=""></asp:Label>
 
 
 

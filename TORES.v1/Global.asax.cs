@@ -16,7 +16,7 @@ namespace TORES.v1
             // Web sitesi ilk ekrana gelirken web.config dosyasındaki ilgili yerden
             // öncelikle veritabanının nerede bulunduğu öğreniliyor (Server,Local)
             // buna göre ilgili ConnectionString alınıyor ve proje genelindeki clsGlobalVPF class'ındaki
-            // _connStr properties'e yazılıyor
+            // _connStr properties'e yazılıyor ki heryerden çağrılabilsin...
 
             string _DBLoc;
 
@@ -24,14 +24,19 @@ namespace TORES.v1
 
             switch(_DBLoc)
             {
-                case "S":
+                case "S": // Server-Web
 
                     clsGlobalVPF.ConnStr = ConfigurationManager.AppSettings["ConnStrWeb"].ToString();
                     break;
 
-                case "L":
+                case "L": // Local-Smart
 
-                    clsGlobalVPF.ConnStr = ConfigurationManager.AppSettings["ConnStrLocal"].ToString();
+                    clsGlobalVPF.ConnStr = ConfigurationManager.AppSettings["ConnStrSmart"].ToString();
+                    break;
+
+                case "P": // Local-Phokaia
+
+                    clsGlobalVPF.ConnStr = ConfigurationManager.AppSettings["ConnStrPhokaia"].ToString();
                     break;
 
             }

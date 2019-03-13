@@ -24,19 +24,20 @@
                     <asp:TableCell>
                         <asp:Table ID="tablOrta" runat="server" Width="100%">
                             <asp:TableRow>
-                                <asp:TableCell BackColor="MediumPurple" Width="20%"> 
-                                <asp:HyperLink ID="hlnkRezIstek" runat="server" NavigateUrl="~/RezIstek.aspx">Rezervasyon İstek</asp:HyperLink><br />
-                                <asp:HyperLink ID="hlnkRezOnOnay" runat="server" NavigateUrl="~/RezOnOnay.aspx">Rezervasyon Ön Onayı</asp:HyperLink><br />
-                                <asp:HyperLink ID="hlnkRezOnay" runat="server" NavigateUrl="~/RezOnay.aspx">Rezervasyon Onayı</asp:HyperLink><br />
-                                <asp:HyperLink ID="hlnkMenu4" runat="server" NavigateUrl="#">Menü 4</asp:HyperLink><br />
-                                <asp:HyperLink ID="hlnkMenu5" runat="server" NavigateUrl="#">Menü 5</asp:HyperLink><br />
+                                <asp:TableCell BackColor="MediumPurple" Width="20%">
+                                    <asp:HyperLink ID="hlnkDefault" runat="server" NavigateUrl="~/Default.aspx">Ana Sayfa</asp:HyperLink><br />
+                                    <asp:HyperLink ID="hlnkRezIstek" runat="server" NavigateUrl="~/RezIstek.aspx">Rezervasyon İstek</asp:HyperLink><br />
+                                    <asp:HyperLink ID="hlnkRezOnOnay" runat="server" NavigateUrl="~/RezOnOnay.aspx">Rezervasyon Ön Onayı</asp:HyperLink><br />
+                                    <asp:HyperLink ID="hlnkRezOnay" runat="server" NavigateUrl="~/RezOnay.aspx">Rezervasyon Onayı</asp:HyperLink><br />
+                                    <asp:HyperLink ID="hlnkChangePass" runat="server" NavigateUrl="~/ChangePass.aspx">Şifre Değiştirme</asp:HyperLink><br />
+                                    <asp:HyperLink ID="hlnkMenu5" runat="server" NavigateUrl="#">Menü 5</asp:HyperLink><br />
 
                                 </asp:TableCell>
 
                                 <asp:TableCell BackColor="DarkRed">
-                                    &nbsp;İçerik
-                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                                </asp:ContentPlaceHolder>
+
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
 
                                 </asp:TableCell>
 

@@ -1,0 +1,22 @@
+﻿    Public Shared Function efunc_TarihCevir(ByVal Tarih As Date) As String
+        ' Date formatında parametre olarak gelen veriyi yyyyaagg formatına çevirir
+
+        Dim vs_Yil As String
+        Dim vs_Ay As String
+        Dim vs_Gun As String
+
+        vs_Yil = Year(Tarih)
+        vs_Ay = Month(Tarih)
+        vs_Gun = Day(Tarih)
+
+        If Len(vs_Ay) < 2 Then
+            vs_Ay = "0" & vs_Ay
+        End If
+
+        If Len(vs_Gun) < 2 Then
+            vs_Gun = "0" & vs_Gun
+        End If
+
+        efunc_TarihCevir = vs_Yil & vs_Ay & vs_Gun
+
+    End Function

@@ -67,6 +67,15 @@ namespace TORES.v1 {
         protected global::System.Web.UI.WebControls.Table tablOrta;
         
         /// <summary>
+        /// hlnkDefault control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlnkDefault;
+        
+        /// <summary>
         /// hlnkRezIstek control.
         /// </summary>
         /// <remarks>
@@ -94,13 +103,13 @@ namespace TORES.v1 {
         protected global::System.Web.UI.WebControls.HyperLink hlnkRezOnay;
         
         /// <summary>
-        /// hlnkMenu4 control.
+        /// hlnkChangePass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlnkMenu4;
+        protected global::System.Web.UI.WebControls.HyperLink hlnkChangePass;
         
         /// <summary>
         /// hlnkMenu5 control.
